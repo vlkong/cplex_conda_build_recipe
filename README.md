@@ -1,5 +1,10 @@
 # cplex_conda_build
-Instructions and example recipe to build CPLEX for conda
+Instructions and example recipe to build CPLEX for conda.
+
+The first thing is to read the tutorial on `conda.io`: https://conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
+This is a 5 mn read and can save you a lot of time.
+
+Once ready, all you need to do is clone this repository and follow the instructions below.
 
 Important note: the `meta.yaml` contains information like the package name.
 If you are build a conda package for private use, you can leave
