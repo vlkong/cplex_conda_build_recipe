@@ -1,7 +1,8 @@
 # cplex_conda_build
 Instructions and example recipe to build CPLEX for conda.
 
-The first thing is to read the tutorial on `conda.io`: https://conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html
+The first thing is to read the tutorial on `conda.io`: https://conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html 
+
 This is a 5 mn read and can save you a lot of time.
 
 Once ready, all you need to do is clone this repository and follow the instructions below.
@@ -11,13 +12,12 @@ If you are build a conda package for private use, you can leave
 the name `cplex`. If you want to mix private and public package, I recommend you change the name of your CPLEX (on public conda, `cplex` is the name for the Community Edition package).
 
 # Prerequisites
-Once `conda` is installed and your  environment activated, you
-need to install `conda-build` with command:
+Once `conda` is installed, you need to create a conda environment with the target python version.
+
+Activate the environment, then install the `conda-build` package:
 ```
 $ conda install conda-build
 ```
-
-You also need CPLEX Optimization studio installed.
 
 # Edit build file
 
