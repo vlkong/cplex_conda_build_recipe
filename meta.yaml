@@ -1,0 +1,6 @@
+package:
+  name: cplex
+  version: "20.1"
+
+about:
+  summary: "The IBM CPLEX runtime for Python"
